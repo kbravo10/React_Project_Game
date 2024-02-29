@@ -4,9 +4,11 @@ function Game(){
     return(
         <div>
             <h1>MOLEMAN</h1>
-            {
-                Array(6).fill(<Moles />)
-            }
+            <div className="moleCards">
+                {
+                    Array(6).fill(<Moles />)
+                }
+            </div>
         </div>
 
     );
