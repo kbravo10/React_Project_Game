@@ -10,17 +10,12 @@ img.moleImage{
     height: 100%;
 }
 
-.molebtn{
-    padding: 1rem 2rem;
-    border-radius: 1rem;
-    margin: 0%;
-}
+
 
 .moleCards{
     display: grid;
     grid-template-columns: repeat(3, 2fr);
-    padding: 1rem 2rem;
-    margin: 1rem;
+    padding: 7rem
 
 }
 
