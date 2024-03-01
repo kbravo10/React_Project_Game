@@ -2,7 +2,7 @@ import MolePic from "../images/mole.jpg"
 import gsap from 'https://cdn.skypack.dev/gsap'
 import { useEffect, useRef } from "react";
 
-function Moles(){
+function Moles({moleHit}){
 
     const btnRef = useRef(null)
     useEffect(() => {
@@ -16,9 +16,14 @@ function Moles(){
             repeatDelay: gsap.utils.random(1, 4)
             
     })}, [])
+    function heloo(){
+        console.log("cat")
+        moleHit()
+    }
+
     return(
         <div className="moleHole">
-            <button className="molebtn" ref={btnRef} >
+            <button className="molebtn" ref={btnRef} onClick={heloo}>
                 <img className="moleImage" alt="oops" src={MolePic}/>
             </button>
         </div>
