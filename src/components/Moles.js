@@ -17,8 +17,8 @@ function Moles({moleHit}){
             duration: gsap.utils.random(0.5, 1),
             yoyo: true,
             repeat: -1,
-            delay: gsap.utils.random(1, 4),
-            repeatDelay: gsap.utils.random(1, 4)
+            delay: gsap.utils.random(1, 2),
+            repeatDelay: gsap.utils.random(1, 2)
             
     })}, [])
 
