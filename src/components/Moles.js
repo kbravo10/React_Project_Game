@@ -27,7 +27,7 @@ function Moles({moleHit}){
             bobRef.current.pause()
             gsap.to(btnRef.current, {
             yPercent: 100,
-            duration: 0.01,
+            duration: 0.2,
             onComplete: () => {
                 gsap.delayedCall(gsap.utils.random(1, 3), () => {
                     setWacked(false)
