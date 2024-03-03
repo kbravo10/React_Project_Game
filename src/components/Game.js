@@ -4,7 +4,6 @@ import Moles from "./Moles"
 
 function Game(){
     const [score, setScore] = useState(0)
-    // const [hit, setHit] = useState(false)
 
     function moleHit(){
         setScore((score) => score + 100)
