@@ -22,3 +22,7 @@ img.moleImage{
 .moleHole{
     overflow: hidden;
 }
+
+.scoreboard{
+    border: #86c270;
+}

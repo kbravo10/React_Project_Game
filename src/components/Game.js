@@ -1,7 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import Moles from "./Moles";
-// import Score  from "./Score";
+import Score  from "./Score";
 
 function Game() {
   const [score, setScore] = useState(0);
@@ -12,7 +12,7 @@ function Game() {
   return (
     <div>
       <div className="scoreCount">
-        <span>{score}</span>
+        <Score score={score} />
       </div>
       <div className="moleCards">
         {Array(6).fill(<Moles moleHit={moleHit} />)}

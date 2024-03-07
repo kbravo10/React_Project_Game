@@ -1,6 +1,9 @@
+import "../css/main.css";
+
+
 function Score({ score }) {
   return (
-    <div>
+    <div className="scoreboard">
       <h1>Score</h1>
       <span>{score}</span>
     </div>
