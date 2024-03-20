@@ -4,6 +4,9 @@
 
 body {
     background: linear-gradient(#d1e9fa 0% 10%, #86c270);
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 200px;
 }
 img.moleImage{
     width: 100%;
@@ -15,8 +18,7 @@ img.moleImage{
 .moleCards{
     display: grid;
     grid-template-columns: repeat(3, 2fr);
-    padding: 7rem
-
+    padding: 7rem;
 }
 
 .moleHole{
